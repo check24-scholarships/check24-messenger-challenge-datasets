@@ -4,6 +4,22 @@
 
 Feel free to adjust the styling of this banner, this is just an example.
 
+## Where to display
+
+The unread banner should be displayed between the last read and first unread message addressed to the user (customer/service provider) of the conversation.
+
+Given the following example of *customer facing messages*:
+
+```
+Message 1 (Read)
+Message 2 (Read)
+Message 3 (Not read)
+Message 4 (Not read)
+Message 5 (Not read)
+```
+
+the unread banner should become visible for the customer between message 2 and 3.
+
 ## When to display
 
 The unread banner should appear in defined scenarios between messages.
@@ -48,19 +64,3 @@ The unread banner should appear in defined scenarios between messages.
         </tr>
     </tbody>
 </table>
-
-## Where to display
-
-The unread banner should be displayed between the last read and first unread message addressed to the user (customer/service provider) of the conversation.
-
-Given the following example of *customer facing messages*:
-
-```
-Message 1 (Read)
-Message 2 (Read)
-Message 3 (Not read)
-Message 4 (Not read)
-Message 5 (Not read)
-```
-
-the unread banner should become visible for the customer between message 2 and 3.
